@@ -1,0 +1,17 @@
+
+main{
+    border: 1px solid rgb(242, 240, 241);
+}
+.aff{
+	margin-top: 50px;
+}
+
+.img-art{
+    width: 98%;
+    height: 400px;
+}
+
+.couleur{
+	font-size: 80px;
+	color: yellow;
+} 
