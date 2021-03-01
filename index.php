@@ -4,7 +4,7 @@
         $bdd=new PDO('mysql:host=localhost;dbname=blog;charset=utf8','root','');
     } 
     catch (Exception $err) {
-        echo " la connexion avec la base de données est échouée." ;
+        echo "la connexion avec la base de données est échouée.";
     }
 	SESSION_START();
 	
@@ -37,7 +37,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>acceeuil</title>
+    <title>accueil</title>
 	<link rel="stylesheet" type="text/css" href="css/accueil.css">
 	<link rel="stylesheet" type="text/css" href="css/article.css">
 	

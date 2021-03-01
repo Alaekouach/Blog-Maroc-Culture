@@ -97,16 +97,16 @@ try {
 
 			<div class="navbar-form-wrapper">
 				<form class="navbar-form form-inline" method="POST">
-						<div class="input-group search-box">
-							<input type="text" class="form-control" placeholder="Chercher un article" name="text-search">
+					<div class="input-group search-box">
+						<input type="text" class="form-control" placeholder="Chercher un article" name="text-search">
 							<div class="input-group-append">
 								<span class="input-group-text">
 									<!-- <input type="button" style="width:30px;" name="search"> -->
 									<button style="width:30px;" name="search"><i class="material-icons pt-1 ">&#xE8B6;</i></button>
 								</span>
 							</div>
-						</div>
-					</form>
+					</div>
+				</form>
 		    </div>
 
             <?php if(isset($_SESSION['username'])) {?>

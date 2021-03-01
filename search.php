@@ -35,7 +35,6 @@
      $var=$_SESSION['text-search'];
 	 $requette4=$bdd->prepare("SELECT * FROM articles WHERE contenu LIKE '%$var%' OR description_article LIKE '%$var%' OR titre LIKE '%$var%' ");
      $requette4->execute(array());
-     
     
     }
    
@@ -123,7 +122,7 @@ if(isset($_POST['search']))
 			<?php if(isset($_SESSION['username'])) {?>
                 <div class="collapse navbar-collapse dropdown justify-content-end" id="navbarTogglerDemo02" >		
                     <div>
-                        <a href="#" class="btn btn-transparent dropdown-toggle text-uppercase " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php  echo $_SESSION['username'];?></a>
+                        <a href="#" class="btn btn-transparent dropdown-toggle text-uppercase " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php  echo $affiche['username'];?></a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="profile.php" >MON PROFILE</a>
                             <a class="dropdown-item" href="deconnexion.php">SE DÉCONNECTER</a>
@@ -175,7 +174,7 @@ if(isset($_POST['search']))
 	<div class="container col-md-11 d-flex pt-3">
 		<div>
 			<div class="container col-md-11 pt-3 ml-4 ">
-			<h5 class="col-md-10  ml-5 mb-4 "><small> Les résultats de votre recherche sur : " <?php echo $var ?>  " </small></h5>
+			<h5 class="col-md-10  ml-5 mb-4 "> Les résultats de votre recherche sur : <span class="text-primary">" <?php echo $var ?>  "</span></h5>
             </div>
 			
 			<div class=" container d-flex flex-wrap col-md-11 ">
