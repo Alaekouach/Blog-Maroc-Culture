@@ -4,7 +4,7 @@
         $bdd=new PDO('mysql:host=localhost;dbname=blog;charset=utf8','root','');
     }
     catch (Exception $err) {
-        echo " la connexion avec la base de données est échouée." ;
+        echo " la connexion avec la base de données est échouée.";
     }
      SESSION_START();
 
