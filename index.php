@@ -25,7 +25,7 @@
 	// faire une recherche sur un mot dans la table article :
 	if(isset($_POST['search']))
 	{
-	   SESSION_START();
+	   
 	   $_SESSION['text-search']=$_POST['text-search'];
 	   header('Location:search.php');
 	}
@@ -181,7 +181,7 @@
 
 			<img src="images\img-avatarIMG_0966-copy-copy-ConvertImage.jpg" alt="" class="rounded-circle "  width=75%>
 			<h5 class="text-uppercase mt-2">Alae eddine</h5>
-			<small>Full-stack Developer , Network Engineer</small>
+			<small>Blogueur , Full-stack Developer , Network Engineer</small>
 			<small>alae.kouach@gmail.com</small><br>
 			<a href="contact.php"><button class="btn mt-2 text-white" style="background-color: rgb(208,179, 94)">Contact</button></a>
 

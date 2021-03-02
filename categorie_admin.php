@@ -46,7 +46,7 @@ session_start();
    // faire une recherche sur un mot dans la table article :
 	 if(isset($_POST['search']))
 	 {
-		SESSION_START();
+		
 		$_SESSION['text-search']=$_POST['text-search'];
 		header('Location:search.php');
 	 }
