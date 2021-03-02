@@ -129,10 +129,11 @@
     <H2 class=" text-center mb-4">CONTACT</H2>
 	<div class="row">
 		<div class="col-md-3 side">
-			<div class="contact-info">
-				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
-				<h2>Contactez-nous</h2>
-				<h4>Nous serions ravis de vous entendre !</h4>
+			<div class="contact-info pt-5">
+				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" class="pl-5 ml-3"/>
+				<h4 class="text-center mb-4">Contactez-nous</h4>
+				
+				<h6>Nous serions ravis de vous entendre !</h6>
 			</div>
 		</div>
 		<div class="col-md-9">
@@ -158,7 +159,7 @@
 				<div class="form-group">
 				  <label class="control-label col-sm-2" for="comment">Message:</label>
 				  <div class="col-sm-10">
-					<textarea class="form-control" rows="5" id="comment"></textarea>
+					<textarea class="form-control" rows="5" id="comment" placeholder="Entrez votre message"></textarea>
 				  </div>
 				</div>
 				<div class="form-group">        
