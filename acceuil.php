@@ -88,7 +88,7 @@
     <nav class="navbar navbar-expand-lg  navbar-light bg-light">
 	<a class="navbar-brand text-danger" href="acceuil.php">Maro<b class="text-success">CϽ</b>ulture</a> 
 	<!-- Collection of nav links, forms, and other content for toggling -->
-	 <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+	 <div id="navbarCollapse" class="collapse navbar-collapse ">
 		<div class="navbar-nav nnav">
 			<a href="histoire.php" class="nav-item nav-link">Histoire</a>
 			<a href="voyage.php" class="nav-item nav-link">Voyage</a>
@@ -203,28 +203,24 @@
 			<a href="contact.php"><button class="btn mt-2 text-white" style="background-color: rgb(208,179, 94)">Contact</button></a>
 
 
-			<div class="mt-5 mb-4 pt-3 border-top border-bottom">
-			<p class="text-uppercase">Catégories</p>
-			</div>
-
-			<div class="container d-flex flex-wrap justify-content-between col-md-10 mt-4 " >
-				<div class="mr-4 mt-2">
+			<div class="container d-flex flex-wrap justify-content-between col-md-9 mt-4 " >
+                <div class="mr-4 mt-2 ">
 					<a href="histoire.php"><div><i class="fa fa-history couleur1" aria-hidden="true"></i></div>
 					<div class="text-dark"><small>Histoire</small></div></a>
 				</div>
-				<div class="mr-4 mt-2">
+                <div class="mr-4 mt-2 ">
 					<a href="voyage.php"><div><i class="fa fa-plane couleur2" aria-hidden="true"></i></div>
 					<div class="text-dark"><small>Voyage</small></div></a>
 				</div>
-				<div class="mr-4 mt-2">
+				<div class="mr-4 mt-2 ">
 					<a href="gastronomie.php"><div><i class="fa fa-cutlery couleur1" aria-hidden="true"></i></div>
 					<div class="text-dark"><small>Gastronomie</small></div></a>
 				</div>
-				<div class="mr-4 mt-4">
+				<div class="mr-4 mt-4 ">
 					<a href="artisanat.php"><div><i class="fa fa-scissors couleur2" aria-hidden="true"></i></div>
 					<div class="text-dark"><small>Artisanat</small></div></a>
 				</div>
-				<div class="mr-3 mt-4">
+				<div class="mr-3 mt-4 ">
 					<a href="folklores.php"><div><i class="fa fa-music couleur1" aria-hidden="true"></i></div>
 					<div class="text-dark"><small>Folklores</small></div></a>
 				</div>

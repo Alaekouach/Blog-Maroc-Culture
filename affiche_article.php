@@ -257,9 +257,7 @@ $calcul=$requete_calcul->fetch();
 				<?php   }  ?>
 			</div>
 
-		</div>
-
-        </div>
+		</div>       
 
     </div>
 

@@ -202,7 +202,7 @@ try {
 			<p class="text-uppercase">Catégories</p>
 			</div>
 
-			<div class="container d-flex flex-wrap justify-content-between col-md-10 mt-4 " >
+			<div class="container d-flex flex-wrap justify-content-between col-md-9 mt-4 " >
                 <div class="mr-4 mt-2 ">
 					<a href="histoire.php"><div><i class="fa fa-history couleur1" aria-hidden="true"></i></div>
 					<div class="text-dark"><small>Histoire</small></div></a>
