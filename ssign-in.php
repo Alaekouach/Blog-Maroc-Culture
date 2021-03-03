@@ -57,12 +57,6 @@
 	<!--Custom styles-->
 	<link rel="stylesheet" type="text/css" href="css/sign-in.css">
 
-
-	<style>
-		/* body {
-			background-image: url('images/gastr_0.jpg');
-		} */
-	</style>
 </head>
 
 
@@ -72,10 +66,10 @@
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
-			<div class="card-header">
+			<div class="card-header bg-secondary">
 				<h3>Authentification</h3>
 			</div>
-			<div class="card-body">
+			<div class="card-body bg-light">
 				<form action="" method="POST">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
@@ -94,7 +88,7 @@
 					</div>
 				</form>
 			</div>
-			<div class="card-footer">
+			<div class="card-footer bg-secondary">
 				<div class="d-flex justify-content-center links">
 					Vous n'avez pas de compte ? <a href="ssign-up.php"> Inscription </a>
 				</div>

@@ -35,7 +35,6 @@ main{
 	margin-right: 10px;
 }
 .navbar .navbar-brand {
-	color: #555;
 	padding-left: 0;
 	font-size: 20px;
 	padding-right: 50px;
@@ -43,7 +42,6 @@ main{
 }
 .navbar .navbar-brand b{
 	font-weight: bold;
-	color: #FFC312(0, 111,98);
 }
 .navbar .navbar-nav a:hover, .navbar .navbar-nav a:focus {
 	color: #FFC312 !important;
@@ -177,8 +175,13 @@ main{
 }
 
 
-@media screen and (min-width : 321px){
+@media only screen and (max-width: 480px) {
 
+	.navbar .navbar-brand {
+		padding-left: 10px;
+		font-size : 1rem;
+		font-family: 'Raleway', sans-serif;
+	}
 	
 
 }

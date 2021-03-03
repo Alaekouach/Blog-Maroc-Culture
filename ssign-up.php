@@ -101,10 +101,10 @@
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
 		<div class="card card_inscription">
-			<div class="card-header">
+			<div class="card-header bg-secondary">
 				<h3>Inscription</h3>
 			</div>
-			<div class="card-body ">
+			<div class="card-body bg-light ">
 				<form action="" method="POST">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
@@ -147,7 +147,7 @@
 				</form>
             </div>
              
-            <div class="card-footer">
+            <div class="card-footer bg-secondary">
 				    <div class="d-flex justify-content-center links">
 					    Vous avez déjà un compte ? <a href="ssign-in.php"> Se connecter</a>
 				    </div>
