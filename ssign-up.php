@@ -70,6 +70,12 @@
                 
             }    
 
+
+			if(isset($_POST['annuler']))
+            {
+				header('Location:acceuil.php');
+			}
+
 ?>
 
 
@@ -141,6 +147,7 @@
 
 					
 					<div class="form-group mt-3">
+						<input type="submit" name='annuler' value="Annuler" class="btn float-left login_btn" id="annuler">
 						<input type="submit" name='valider' value="Valider" class="btn float-right login_btn" id="valider">
                     </div>
                    
