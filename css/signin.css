@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+.container{
+height: 100%;
+align-content: center;
+opacity: 0.9;
+}
+
+.card{
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+}
+
+.card_inscription{
+    height: 420px;
+}
+
+.card-header h3{
+color: white;
+}
+
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 150px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+} 
+
+
+
+.mob{
+    display: none;
+}
+
+.desk{
+	display: block;
+}
+
+.tet{
+
+	height:450px;
+}
+
+.aaside{
+	display: block;
+}
+
+.titre{
+	padding-top: 10px;
+	 
+}
+
+.foo-desk{
+	display: flex;
+	height:450px;
+}
+
+.foo-mob{
+	display: none;
+}
+
+.cat{
+	margin: 100px 100px ;
+}
+
+.com{
+	display: flex;
+}
+
+.aff-desk{
+	display: block;
+}
+
+.aff-mob{
+	display: none;
+}
+
+.titr-desk{
+	display: block;
+}
+
+.titr-mob{
+	display: none;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    .navbar .navbar-brand {
+		font-size: 16px;
+		padding-right: 0px;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.mob{
+		display: block;
+	}
+
+	.desk{
+		display: block;
+	}
+
+	.tet{
+		height:130px;
+	}
+
+	.aaside{
+		display: none;
+	}
+
+	.titre{
+		font-size: 1.4rem;
+		 
+	}
+
+	.foo-desk{
+		display: none;
+	}
+
+	.foo-mob{
+		display: block;
+	}
+
+	.foo-mob p,.foo-mob label{
+		font-size: 0.8rem;
+	}
+
+	.titcat{
+		font-size: 0.9rem;
+	}
+
+	.cat{
+		margin: auto;
+	}
+
+	.com{
+		display: block;
+	}
+
+	.aff-desk{
+		display: none;
+	}
+
+	.aff-mob{
+		display: block;
+		
+	}
+
+	.titr-desk{
+		display: none;
+	}
+
+	.titr-mob{
+		display: block;
+	}
+
+	.search-box input.form-control {		
+		padding-right: 0px;
+		border-radius: 0;
+		padding-left: 0;
+		border-width: 0 0 1px 0;
+		box-shadow: none;
+		margin-right: 0px;
+	}
+
+	.container{
+		height: 100%;
+		align-content: center;
+		opacity: 0.9;
+		top:50px;
+		}
+
+
+}

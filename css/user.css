@@ -70,3 +70,26 @@ body{
     padding-left: 15px;
 }
 
+.profile-mob{
+    display: none;
+}
+
+.profile-desk{
+    display: block;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    .profile-mob{
+        display: block;
+    }
+    
+    .profile-desk{
+        display: none;
+    }
+
+    
+}

@@ -39,3 +39,22 @@ body{
 .contact-form button:focus{
     box-shadow:none;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  
+
+    .contact{
+        height: 700px;
+    }
+
+    .contact-info{
+        margin-top:initial;
+    }
+
+    .contact-info img{
+        margin-bottom: initial;
+    }
+
+   
+
+}
