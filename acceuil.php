@@ -143,7 +143,6 @@
 				<?php } ?>
 			</div>
 
-			<!-- <div class="bg-light text-center p-4"> -->
 			<div class="container d-flex flex-wrap justify-content-between mt-2 mb-2" style="width:300px" >
 				
 				<div class=" mt-2">
